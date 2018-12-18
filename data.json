@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Torrent 1",
+    "torrentUrl": "https://www.example.com/file1.torrent",
+    "magnet": "lY1onRu9GFYMidUy1wtEKpPZFVHqoU",
+    "url": "https://www.example.com/file1",
+    "info": {
+      "category": "Movie",
+      "submitter": "Admin",
+      "information": "Some basic info about the movie",
+      "filesize": "4000 mb",
+      "date": "18-12-2018",
+      "seeders": 123,
+      "leechers": 321,
+      "completed": 5000
+    },
+    "comments": [
+      {
+        "user": "user1",
+        "avatar": "https://www.example.com/user/user1/avatar.jpg",
+        "postTime": 1545167919,
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "user": "user2",
+        "avatar": "https://www.example.com/user/user2/avatar.jpg",
+        "postTime": 1545167000,
+        "text": "Donec turpis massa, feugiat quis diam nec, rutrum semper ante."
+      }
+    ],
+    "files": [
+      {
+        "name": "file 1",
+        "size": "1000 mb"
+      },
+      {
+        "name": "file 2",
+        "size": "1000 mb"
+      },
+      {
+        "name": "file 3",
+        "size": "1000 mb"
+      },
+      {
+        "name": "file 4",
+        "size": "1000 mb"
+      }
+    ]
+  },
+  {
+    "title": "Torrent 2",
+    "torrentUrl": "https://www.example.com/file2.torrent",
+    "magnet": "leyEfKwyfkAXPbfpoF5Yw9NSyx2Vai",
+    "url": "https://www.example.com/file2",
+    "info": {
+      "category": "Show",
+      "submitter": "Admin",
+      "information": "Some basic info about the show",
+      "filesize": "2000 mb",
+      "date": "18-12-2018",
+      "seeders": 443,
+      "leechers": 334,
+      "completed": 1255
+    },
+    "comments": [
+      {
+        "user": "user5",
+        "avatar": "https://www.example.com/user/user5/avatar.jpg",
+        "postTime": 1545168569,
+        "post": "Cras vestibulum tincidunt libero vitae cursus."
+      },
+      {
+        "user": "user6",
+        "avatar": "https://www.example.com/user/user6/avatar.jpg",
+        "postTime": 1545168500,
+        "post": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+      }
+    ],
+    "files": [
+      {
+        "name": "file 1",
+        "size": "500 mb"
+      },
+      {
+        "name": "file 2",
+        "size": "500 mb"
+      },
+      {
+        "name": "file 3",
+        "size": "500 mb"
+      },
+      {
+        "name": "file 4",
+        "size": "500 mb"
+      }
+    ]
+  }
+]
