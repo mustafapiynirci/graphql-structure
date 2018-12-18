@@ -7,7 +7,7 @@ import { typeDefs as Info } from "../modules/info/info_type";
 import { typeDefs as Comment } from "../modules/comment/comment_type";
 import { typeDefs as File } from "../modules/file/file_type";
 
-module.exports.typeDefs = `
+const typeDefs = `
   type Query {
     _: String
   }
@@ -21,4 +21,6 @@ module.exports.typeDefs = `
   ${File}
 `;
 
-module.exports.resolvers = merge(TorrentResolvers);
+const resolvers = merge(TorrentResolvers);
+
+export { typeDefs, resolvers };
