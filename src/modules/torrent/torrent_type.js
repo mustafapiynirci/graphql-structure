@@ -1,4 +1,4 @@
-import data from "../../../data.json";
+import data from '../../../data.json'
 
 const typeDefs = `
   extend type Query {
@@ -15,19 +15,19 @@ const typeDefs = `
     comments: [Comment]
     files: [File]
   }
-`;
+`
 
 const resolvers = {
   Query: {
     allTorrents: () => {
-      return data;
+      return data
     },
     torrent: (root, { title }) => {
       return data.filter(torrent => {
-        return torrent.title === title;
-      })[0];
+        return torrent.title === title
+      })[0]
     }
   }
-};
+}
 
-export { typeDefs, resolvers };
+export { typeDefs, resolvers }

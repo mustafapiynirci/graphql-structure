@@ -3,6 +3,6 @@ const typeDefs = `
     title: String
     size: String
   }
-`;
+`
 
-export { typeDefs };
+export { typeDefs }

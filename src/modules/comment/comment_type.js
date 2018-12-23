@@ -5,6 +5,6 @@ const typeDefs = `
     postTime: Int
     text: String
   }
-`;
+`
 
-export { typeDefs };
+export { typeDefs }

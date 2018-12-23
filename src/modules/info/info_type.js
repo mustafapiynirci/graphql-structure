@@ -9,6 +9,6 @@ const typeDefs = `
     leechers: Int
     completed: Int
   }
-`;
+`
 
-export { typeDefs };
+export { typeDefs }
