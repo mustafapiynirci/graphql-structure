@@ -18,9 +18,10 @@ Now you can visit the graphql playground on `http://localhost:4200`
 ## License
 
 Apache License 2.0
+
 **Free Software? Hell Yeah!**
 
 [//]: #
-[GraphQL]: <https://graphql.org/>
-[Apollo]: <https://www.apollographql.com/>
-[Node.JS]: <https://nodejs.org/en/>
+[graphql]: https://graphql.org/
+[apollo]: https://www.apollographql.com/
+[node.js]: https://nodejs.org/en/
